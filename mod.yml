@@ -1,0 +1,22 @@
+title: KH1R File Client
+originalAuthor: Gicu
+description: Decoupling of the original file-based client functionality for KH1R.
+dependencies:
+- name: gaithern/kh1-lua-library
+assets:
+- name: scripts/1fmRandoHandleDeathLink.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoHandleDeathLink.lua
+- name: scripts/1fmRandoReceiveAPItems.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoReceiveAPItems.lua
+- name: scripts/1fmRandoSendAPLocations.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoSendAPLocations.lua
+- name: scripts/1fmRandoSendSynthShopHints.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoSendSynthShopHints.lua
