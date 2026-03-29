@@ -20,3 +20,7 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoSendSynthShopHints.lua
+- name: scripts/1fmRandoShowPrompt.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoShowPrompt.lua
